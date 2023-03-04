@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Indix.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand company" href="#">COMPANY</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto my-3 mb-lg-0">
+            <li class="nav-item d-flex">
+              <span class="material-icons-outlined sp1"> menu </span>
+              <a class="nav-link active pt-0" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item d-flex">
+              <span class="material-icons-outlined sp1"> height </span>
+              <a class="nav-link active pt-0" aria-current="page" href="#"
+                >MESSAGES</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex bg-white mt-3" role="search">
+            <div class="input-group mb-3">
+              <span
+                class="material-icons-outlined bg-white border sp1 px-2 pt-2"
+              >
+                search
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                style="width: 20rem"
+                placeholder="Username"
+              />
+            </div>
+          </form>
+          <ul class="navbar-nav my-3 mb-lg-0">
+            <li class="nav-item d-flex">
+              <span class="material-icons-round sp1"> notifications </span>
+              <a class="nav-link active pt-0" aria-current="page" href="#"
+                >Notifications</a
+              >
+            </li>
+            <li class="nav-item" style="margin-top: -15px">
+              <a class="nav-link text-black" aria-current="page" href="Home">
+                <div class="dropdown">
+                  <button
+                    class="btn dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Welcome, Admin!
+                  </button>
+                  <ul class="dropdown-menu"></ul>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid bg-light">
+      <div class="row">
+        <div class="col-lg-1 col-3 pt-3 position-relative" style="background-color: white; height: 88vh; width: 65px;">
+          <p><span class="material-icons-round"> grid_view </span></p>
+          <p><span class="material-icons-outlined"> scanner </span></p>
+          <p><span class="material-icons-round"> settings </span></p>
+          <p><span class="material-icons-round"> account_circle </span></p>
+          <p><span class="material-icons-round position-absolute" style="bottom: 10px;" > logout </span></p>
+          
+        </div>
+
+        <div class="col-lg-2 col-9 border">
+            <p class="mt-3 bg-white py-2" >All Messages</p>
+            <p class="" style="margin-top: 20px">Completed</p>
+            <p class="" style="margin-top: 20px">Save</p>
+            <p class="mt-4">Deleted</p>
+        </div>
+
+        <div class="col-lg-3 border pt-3">
+            <h3>Messages</h3>
+            <div class="dropdown w-50">
+                <p class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">All Chats</p>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item li" href="/#">FaceBook</a></li>
+                  <li><a class="dropdown-item li" href="/#">Instagram</a></li>
+                  <li><a class="dropdown-item li" href="/#">Linkedln</a></li>
+                  <li><a class="dropdown-item li" href="/#">Yelp</a></li>
+                  <li><a class="dropdown-item " style="text-align: center;" href="/#">Twitter</a></li>
+                </ul>
+              </div>
+              <ul class="d-flex p-1 rounded-2 position-relative text-white list-unstyled" style="background-color: rgb(192, 118, 235); ">
+                <li>
+                  <img src="./Images/DSC_0019.JPG" class="profile" alt="">
+                </li>
+                <li class="ms-3 text-start" style="width: 60%;">
+                  <div class="row">
+                    <div class="col-lg-8">
+                      <img src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png" class="logo mt-1" style="width: 25px;" alt="asdasd">
+                      <p class="ms-2 d-inline-block fw-bolder">Jhon Smith</p>
+                      <p style="font-size: 12px;">Hi i have a question... </p>
+                    </div>
+                    <div class="col-lg-4 text-white position-absolute text-end" style="right: 5px;">
+                        <span class="material-icons-round">
+                            more_horiz
+                            </span>
+                      
+                      <p style="font-size: 12px;">1 hr ago</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              
+
+              <ul class="d-flex p-1 rounded-2 bg-white position-relative list-unstyled" >
+                <li>
+                  <img src="./Images/DSC_0019.JPG" class="profile" alt="">
+                </li>
+                <li class="ms-3 text-start" style="width: 60%;">
+                  <div class="row">
+                    <div class="col-lg-8">
+                      <img src="https://png.pngtree.com/element_our/sm/20180630/sm_5b37de3263964.jpg" style="width: 25px;" alt="asdasd">
+                      <p class=" d-inline-block fw-bolder " style="font-size: 13px;">Company Name</p>
+                      <p style="font-size: 12px;">how can i....</p>
+                    </div>
+                    <div class="col-lg-4  position-absolute text-end" style="right: 5px;">
+                        <span class="material-icons-round">
+                            more_horiz
+                            </span>
+                      
+                      <p style="font-size: 12px;">3 hrs ago</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+                
+              
+
+              <ul class="d-flex p-1 rounded-2 bg-white position-relative list-unstyled" >
+                <li>
+                  <img src="./Images/DSC_0019.JPG" class="profile" alt="">
+                </li>
+                <li class="ms-3 text-start" style="width: 60%;">
+                  <div class="row">
+                    <div class="col-lg-8">
+                      <img src="https://i0.wp.com/openvisualfx.com/wp-content/uploads/2019/10/linkedin-icon-logo-png-transparent.png?resize=1024%2C1024&ssl=1" class="logo mt-1" style="width: 25px;" alt="asdasd">
+                      <p class=" d-inline-block fw-bolder " style="font-size: 13px;">Company Name</p>
+                      <p style="font-size: 12px;">would you like to....</p>
+                    </div>
+                    <div class="col-lg-4  position-absolute text-end" style="right: 5px;">
+                        <span class="material-icons-round">
+                            more_horiz
+                            </span>
+                      
+                      <p style="font-size: 12px;">6 hrs ago</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              
+              
+              
+              
+              
+        </div>
+
+        <div class="col-lg-6 col4 position-relative" >
+            <ul class="d-flex p-1 mt-3 rounded-2 bg-white position-relative list-unstyled" >
+                <li>
+                  <img src="./Images/DSC_0019.JPG" class="profile" alt="">
+                </li>
+                <li class="ms-3 text-start" style="width: 60%;">
+                  <div class="row">
+                    <div class="col-lg-8">
+                      <img src="https://www.edigitalagency.com.au/wp-content/uploads/Facebook-logo-blue-circle-large-transparent-png.png" style="width: 25px;" alt="asdasd">
+                      <p class=" d-inline-block fw-bolder">Jhon Smith</p>
+                      <p style="font-size: 15px; ms-3"  >Online</p>
+                    </div>
+                    <div class="col-lg-4  position-absolute text-end" style="right: 5px;">
+                        <span class="material-icons-round fs-1  mt-2">
+                            more_vert
+                            </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div>
+              <ul class="d-flex p-1 mt-5 rounded-2  list-unstyled" >
+                <li>
+                  <img src="./Images/DSC_0019.JPG" class="profile mt-2" alt="">
+                </li>
+                <li class="ms-3 text-start bg-white p-2" style="width: 60%;">
+                  <div class="row">
+                    <div class="col-lg-8">
+                      
+                     <p>Hi! i have a question regarding to one of your product</p>
+                    </div>
+                    
+                  </div>
+                  
+                </li>
+            </ul>
+        </div>
+                <p class="message">Message send 2:45 pm</p>
+
+                <div class="search w-100 position-absolute bg-white send">
+                    <form class="d-flex" role="search">
+                      <div class="border d-flex rounded-3 w-100">
+                        <span class="material-icons-round my-2 ms-2 sp1">
+                            add_circle
+                            </span>
+                        <input class="form-control bg-white border-white  me-2" type="search" placeholder="Send a replay" aria-label="Search">
+                        <span class="material-icons-round my-2 me-2 sp1">
+                            send
+                            </span>
+                      </div>
+                    </form>
+                  </div>
+              
+        </div>
+        
+        
+
+
+      </div>
+    </div>
+
+    <script src="./Indix.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
