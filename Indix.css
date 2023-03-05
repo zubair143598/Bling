@@ -24,12 +24,44 @@ height: 50px;
     text-align: center !important;
 }
 
+.col1
+{
+    background-color: white; 
+    height: 88vh; width: 65px !important;
+}
+.firstChat 
+{
+
+    background-color: rgb(192, 118, 235);
+}
+
+.facebook
+{
+    width: 25px !important;
+}
+.para1
+{
+    font-size: 12px;
+}
+
+.dots
+{
+    right: 5px;
+}
 .col4
 {
     border: 1px solid #eaecef;
     border-right: 0px solid white !important;
 }
+.nev
+{
+    margin-top: -15px
+}
 
+
+.search{
+        width: 20rem
+}
 .message
 {
     margin-top: -16px !important;
