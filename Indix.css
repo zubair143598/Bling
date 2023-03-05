@@ -75,3 +75,17 @@ height: 50px;
     bottom: 20px;
     width: 50% !important;
 }
+
+
+
+#myDiv.hov {
+    bottom: 20px;
+    display: none;
+    visibility: hidden;
+}
+
+#myDiv.hov:hover {
+    display: block !important;
+    visibility: visible !important;
+    color: red;
+}
